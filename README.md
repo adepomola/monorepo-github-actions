@@ -35,7 +35,7 @@ Deploy
 
 ### Screenshot — First Successful GitHub Action
 
-[![Monorepo Success](images/06-monorepo-success.jpeg)]
+[![Monorepo Success](image/06-monorepo-success.jpeg)]
 
 
 ---
@@ -176,7 +176,7 @@ The advantage of this approach is that related services can share the same repos
 
 However, the CI/CD system must be intelligent enough to determine which service needs to be processed.
 
-![Monorepo Structure](images/01-monorepo-structure.jpg)
+![Monorepo Structure](image/01-monorepo-structure.png)
 
 ---
 
@@ -220,7 +220,7 @@ service-b/
 
 contains files belonging to Service B.
 
-![Services Created](images/02-services-created.jpg)
+![Services Created](image/02-services-created.png)
 
 ---
 
@@ -318,7 +318,7 @@ This is particularly important for CI/CD because GitHub Actions responds to repo
 
 ### Screenshot — Git Initialization
 
-[![Git Initialization](images/03-git-initialized.png)](images/03-git-initialized.png)
+[![Git Initialization](image/03-git-initialized.png)](images/03-git-initialized.png)
 
 ---
 
@@ -364,7 +364,7 @@ git push -u origin main
 
 ### Screenshot — GitHub Repository
 
-[![GitHub Repository](images/04-github-repository.png)](images/04-github-repository.png)
+[![GitHub Repository](image/04-github-repository.png)](image/04-github-repository.png)
 
 ---
 
@@ -411,7 +411,7 @@ The workflow defines:
 
 ### Screenshot — CI Workflow Configuration
 
-[![CI Workflow Configuration](images/08-ci-yml-code.jpeg)](images/08-ci-yml-code.jpeg)
+[![CI Workflow Configuration](image/08-ci-yml-code.jpeg)](image/08-ci-yml-code.jpeg)
 
 ---
 
@@ -469,7 +469,7 @@ This is important because it prevents unnecessary CI/CD work.
 
 ### Screenshot — Change Detection
 
-[![Change Detection](images/05-change-detection.png)](images/05-change-detection.png)
+[![Change Detection](image/05-change-detection.png)](image/05-change-detection.png)
 
 ---
 
@@ -570,7 +570,7 @@ An unchanged service does not need to be processed.
 
 ### Screenshot — Multiple Services Matrix Success
 
-[![Multiple Services Matrix Success](images/07-multiple-services-matrix-success.png)](images/07-multiple-services-matrix-success.png)
+[![Multiple Services Matrix Success](image/07-multiple-services-matrix-success.png)](image/07-multiple-services-matrix-success.png)
 
 ---
 
@@ -712,7 +712,7 @@ The Actions section of the GitHub repository was used to monitor the workflow.
 
 ### Screenshot — First Successful GitHub Action
 
-[![First Successful GitHub Action](images/06-monorepo-success.jpeg)](images/06-monorepo-success.jpeg)
+[![First Successful GitHub Action](image/06-monorepo-success.jpeg)](image/06-monorepo-success.jpeg)
 
 ---
 
@@ -1210,22 +1210,6 @@ By detecting affected services before executing CI/CD operations, the system can
 
 ---
 
-## 43. Screenshot Evidence
-
-All project screenshots are stored inside the `images` directory.
-
-Each screenshot is linked to its actual file so that it can be opened directly from the GitHub repository.
-
-| No. | Evidence                          | File |
-|-----|-----------------------------------|------|
-| 1   | Monorepo structure                | [Open Image](images/01-monorepo-structure.jpg) |
-| 2   | Services created                  | [Open Image](images/02-services-created.jpg) |
-| 3   | Git initialization                | [Open Image](images/03-git-initialized.jpg) |
-| 4   | GitHub repository                 | [Open Image](images/04-github-repository.jpg) |
-| 5   | Change detection                  | [Open Image](images/05-change-detection.jpg) |
-| 6   | First successful Action           | [Open Image](images/06-first-successful-action.jpg) |
-| 7   | Multiple-service matrix success   | [Open Image](images/07-multiple-services-matrix-success.jpg) |
-| 8   | CI workflow configuration         | [Open Image](images/08-ci-yml-code.jpg) |
 
 ---
 
