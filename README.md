@@ -35,7 +35,7 @@ Deploy
 
 ### Screenshot — First Successful GitHub Action
 
-[![Monorepo Success](images/06-monorepo-success.jpeg)](images/06-monorepo-success.jpeg)
+[![Monorepo Success](images/06-monorepo-success.jpeg)]
 
 
 ---
