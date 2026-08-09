@@ -31,11 +31,11 @@ Test
         ↓
 Deploy
 ```
-### Screenshot — First successful action
+
 
 ### Screenshot — First Successful GitHub Action
 
-[![First Successful GitHub Action](images/06-monorepo-success.jpeg)](images/06-monorepo-success.jpeg)
+[![First Successful GitHub Action](images/06-monorepo-success.jpeg)]
 
 
 ---
